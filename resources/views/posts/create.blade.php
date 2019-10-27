@@ -8,7 +8,7 @@
 </style>
 <div class="card uper">
   <div class="card-header">
-    Create Post
+    Create Post <a class="btn btn-outline-dark" href="{{ route('posts.index') }}" style="margin-left:200px !important;  text-align: left !important;"> Back</a>
   </div>
   <div class="card-body">
     @if ($errors->any())
